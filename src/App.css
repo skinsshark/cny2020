@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+main {
+  /* border: 1px solid red; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffcc00;
+  opacity: 1; /* Firefox */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ffcc00;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ffcc00;
 }
 
-.App-link {
-  color: #61dafb;
+input:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffdb4a;
+  opacity: 1; /* Firefox */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ffdb4a;
+}
+
+input:focus::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ffdb4a;
+}
+
+h2, h3, input{
+  color: #ffcc00;
+  margin: 0;
+}
+
+h2, input {
+  font-size: calc(2*88px);
+  letter-spacing: 18px;
+}
+
+input {
+  width: 99vw;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+h3 {
+  font-size: calc(0.25*88px);
+}
+
+h3::before {
+  content: '[ ';
+}
+
+h3::after {
+  content: ' ]';
 }
