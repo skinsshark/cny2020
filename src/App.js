@@ -19,6 +19,12 @@ function App() {
   const [month, setMonth] = useState('');
   const [day, setDay] = useState('');
 
+  function clearBirthday() {
+    setYear('');
+    setMonth('');
+    setDay('');
+  }
+
   return (
     <MemoryRouter>
       <Route
@@ -40,7 +46,10 @@ function App() {
       <Route
         path="/result"
         render={() => (
-          <Result birthday={genFullBirthday(year, month, day)} />
+          <Result
+            birthday={genFullBirthday(year, month, day)}
+            clearBirthday={clearBirthday}
+          />
         )}
       />
     </MemoryRouter>
