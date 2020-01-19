@@ -4,11 +4,28 @@
   text-align: center;
 }
 
+html {
+  background-color: #ffeb99;
+}
+
 body {
-  height: 90vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffeb99;
   text-align: center;
+}
+
+@media only screen and (max-width: 787px) {
+  html {
+    padding: 30px;
+    text-align: left;
+  }
+  html::before {
+    color: #ffcc00;
+    content: 'Desktop Experience 0nly';
+  }
+  body {
+    display: none;
+  }
 }
