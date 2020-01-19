@@ -10,6 +10,7 @@ function App() {
     <main>
       <YearInput year={year} setYear={setYear} />
       <h3>Enter your birth year</h3>
+      <button disabled={year.length !== 4} onClick={() => alert(year)}>&rarr;</button>
     </main>
   );
 }

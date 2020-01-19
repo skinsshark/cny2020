@@ -1,34 +1,4 @@
-main {
-  /* border: 1px solid red; */
-}
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #ffcc00;
-  opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #ffcc00;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-  color: #ffcc00;
-}
-
-input:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #ffdb4a;
-  opacity: 1; /* Firefox */
-}
-
-input:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #ffdb4a;
-}
-
-input:focus::-ms-input-placeholder { /* Microsoft Edge */
-  color: #ffdb4a;
-}
-
-h2, h3, input{
+h2, h3, h4, input{
   color: #ffcc00;
   margin: 0;
 }
@@ -36,24 +6,6 @@ h2, h3, input{
 h2, input {
   font-size: calc(2*88px);
   letter-spacing: 18px;
-}
-
-input {
-  width: 99vw;
-  background-color: transparent;
-  border: none;
-  outline: none;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
-}
-
-input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
 }
 
 h3 {
@@ -66,4 +18,32 @@ h3::before {
 
 h3::after {
   content: ' ]';
+}
+
+h4 {
+  min-height: 40px;
+  font-size: 28px;
+  letter-spacing: 10vw;
+  margin-right: -9vw;
+}
+
+main button {
+  margin-top: 50px;
+}
+
+button {
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 20px;
+  font-size: 30px;
+  color: #fff;
+  padding: 0 40px;
+  outline: none;
+  cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+  cursor: not-allowed;
+  background-color: #ffdb4a;
 }
