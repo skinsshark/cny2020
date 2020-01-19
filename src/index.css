@@ -16,15 +16,17 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 100px) {
   html {
     padding: 30px;
     text-align: left;
   }
+
   html::before {
     color: #ffcc00;
-    content: 'Desktop Experience 0nly';
+    content: 'Super Desktop Experience 0nly';
   }
+
   body {
     display: none;
   }

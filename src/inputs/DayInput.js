@@ -16,7 +16,7 @@ function chineseNumbers(digits) {
   const arr = Array.from(digits);
   const numbersStr = arr.map(number => NUMBERS[number])
 
-  return <h4>{numbersStr.join('')}</h4>
+  return <header><h4>{numbersStr.join('')}</h4></header>
 }
 
 function DayInput(props) {

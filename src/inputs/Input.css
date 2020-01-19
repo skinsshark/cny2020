@@ -42,6 +42,12 @@ input[type=number] {
     -moz-appearance:textfield; /* Firefox */
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .month-day {
   display: flex;
 }
