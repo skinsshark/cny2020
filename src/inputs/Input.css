@@ -41,3 +41,11 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance:textfield; /* Firefox */
 }
+
+.month-day {
+  display: flex;
+}
+
+.month-day input {
+  width: 40vw;
+}

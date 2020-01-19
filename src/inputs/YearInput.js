@@ -1,11 +1,11 @@
 import React from 'react';
-import './YearInput.css';
+import './Input.css';
 
 const YEAR_LENGTH = 4;
-const NUMBERS = ["零","一","二","三","四","五","六","七","八","九"];
+const NUMBERS = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
 
 function limitInputLength(value, setYear) {
-  if (value.length > 4) {
+  if (value.length > YEAR_LENGTH) {
     setYear(value.slice(0, YEAR_LENGTH))
   } else {
     setYear(value)
@@ -13,7 +13,6 @@ function limitInputLength(value, setYear) {
 }
 
 function chineseNumbers(digits) {
-  console.log(digits)
   const arr = Array.from(digits);
   const numbersStr = arr.map(number => NUMBERS[number])
 
@@ -25,6 +24,7 @@ function YearInput(props) {
     <div>
       {chineseNumbers(props.year)}
       <input
+        autoFocus={true}
         value={props.year}
         type="number"
         maxLength={YEAR_LENGTH}

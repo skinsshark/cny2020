@@ -1,17 +1,49 @@
 import React from 'react';
 import {useState} from 'react';
-import YearInput from './YearInput';
+import { MemoryRouter, Route } from 'react-router';
+import Year from './Year';
+import MonthDay from './MonthDay';
+import Result from './Result';
 import './App.css';
+
+function genFullBirthday(year, month, day) {
+  return {
+    year,
+    month,
+    day,
+  }
+}
 
 function App() {
   const [year, setYear] = useState('');
+  const [month, setMonth] = useState('');
+  const [day, setDay] = useState('');
 
   return (
-    <main>
-      <YearInput year={year} setYear={setYear} />
-      <h3>Enter your birth year</h3>
-      <button disabled={year.length !== 4} onClick={() => alert(year)}>&rarr;</button>
-    </main>
+    <MemoryRouter>
+      <Route
+        exact
+        path="/"
+        render={() => <Year year={year} setYear={setYear} />}
+      />
+      <Route
+        path="/almost"
+        render={() => (
+          <MonthDay
+            month={month}
+            setMonth={setMonth}
+            day={day}
+            setDay={setDay}
+          />
+        )}
+      />
+      <Route
+        path="/result"
+        render={() => (
+          <Result birthday={genFullBirthday(year, month, day)} />
+        )}
+      />
+    </MemoryRouter>
   );
 }
 
