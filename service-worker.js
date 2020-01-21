@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chinese-zodiac/precache-manifest.67e5f492caee3d13edc8b094723f22f3.js"
+  "/chinese-zodiac/precache-manifest.425369e6e942d837368110b95fe0f805.js"
 );
 
 self.addEventListener('message', (event) => {
