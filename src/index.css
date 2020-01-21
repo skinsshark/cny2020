@@ -10,13 +10,21 @@ html {
 
 body {
   height: 95vh;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 787px) {
+  body {
+    height: 80vh;
+    overflow-y: hidden;
+  }
+}
+
+/* @media only screen and (max-width: 100px) {
   html {
     padding: 30px;
     text-align: left;
@@ -30,4 +38,4 @@ body {
   body {
     display: none;
   }
-}
+} */
