@@ -1,0 +1,52 @@
+{
+  "animals" : {
+    "rat" : {
+      "emoji": "🐀",
+      "character" : "鼠"
+    },
+    "ox" : {
+      "emoji": "🐄",
+      "character" : "牛"
+    },
+    "tiger" : {
+      "emoji": "🐅",
+      "character" : "虎"
+    },
+    "rabbit" : {
+      "emoji": "🐇",
+      "character" : "兔"
+    },
+    "dragon" : {
+      "emoji": "🐉",
+      "character" : "龙"
+    },
+    "snake" : {
+      "emoji": "🐍",
+      "character" : "蛇"
+    },
+    "horse" : {
+      "emoji": " 🐎",
+      "character" : "马"
+    },
+    "sheep" : {
+      "emoji": " 🐐",
+      "character" : "羊"
+    },
+    "monkey" : {
+      "emoji": " 🐒",
+      "character" : "猴"
+    },
+    "rooster" : {
+      "emoji": "🐓",
+      "character" : "鸡"
+    },
+    "dog" : {
+      "emoji": "🐕",
+      "character" : "狗"
+    },
+    "pig" : {
+      "emoji": "🐖",
+      "character" : "猪"
+    }
+  }
+}
