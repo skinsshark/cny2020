@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/chinese-zodiac/static/css/main.3ca86aaf.chunk.css",
-    "main.js": "/chinese-zodiac/static/js/main.3110fdd2.chunk.js",
-    "main.js.map": "/chinese-zodiac/static/js/main.3110fdd2.chunk.js.map",
+    "main.css": "/chinese-zodiac/static/css/main.9a8e7dd1.chunk.css",
+    "main.js": "/chinese-zodiac/static/js/main.d5fef7b8.chunk.js",
+    "main.js.map": "/chinese-zodiac/static/js/main.d5fef7b8.chunk.js.map",
     "runtime-main.js": "/chinese-zodiac/static/js/runtime-main.4181dcdb.js",
     "runtime-main.js.map": "/chinese-zodiac/static/js/runtime-main.4181dcdb.js.map",
-    "static/js/2.1883618e.chunk.js": "/chinese-zodiac/static/js/2.1883618e.chunk.js",
-    "static/js/2.1883618e.chunk.js.map": "/chinese-zodiac/static/js/2.1883618e.chunk.js.map",
+    "static/js/2.5fbd9b44.chunk.js": "/chinese-zodiac/static/js/2.5fbd9b44.chunk.js",
+    "static/js/2.5fbd9b44.chunk.js.map": "/chinese-zodiac/static/js/2.5fbd9b44.chunk.js.map",
     "index.html": "/chinese-zodiac/index.html",
-    "precache-manifest.425369e6e942d837368110b95fe0f805.js": "/chinese-zodiac/precache-manifest.425369e6e942d837368110b95fe0f805.js",
+    "precache-manifest.fe4ac2398cbd8d596f9b11df4f4530cd.js": "/chinese-zodiac/precache-manifest.fe4ac2398cbd8d596f9b11df4f4530cd.js",
     "service-worker.js": "/chinese-zodiac/service-worker.js",
-    "static/css/main.3ca86aaf.chunk.css.map": "/chinese-zodiac/static/css/main.3ca86aaf.chunk.css.map",
-    "static/js/2.1883618e.chunk.js.LICENSE": "/chinese-zodiac/static/js/2.1883618e.chunk.js.LICENSE"
+    "static/css/main.9a8e7dd1.chunk.css.map": "/chinese-zodiac/static/css/main.9a8e7dd1.chunk.css.map",
+    "static/js/2.5fbd9b44.chunk.js.LICENSE": "/chinese-zodiac/static/js/2.5fbd9b44.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.4181dcdb.js",
-    "static/js/2.1883618e.chunk.js",
-    "static/css/main.3ca86aaf.chunk.css",
-    "static/js/main.3110fdd2.chunk.js"
+    "static/js/2.5fbd9b44.chunk.js",
+    "static/css/main.9a8e7dd1.chunk.css",
+    "static/js/main.d5fef7b8.chunk.js"
   ]
 }
