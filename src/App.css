@@ -48,6 +48,7 @@ h4 {
 @media only screen and (max-width: 1092px) {
   h3 {
     font-size: 20px;
+    margin-right: -5px;
   }
 
   h4 {
@@ -60,6 +61,7 @@ h4 {
 @media only screen and (max-width: 787px) {
   h3 {
     font-size: 15px;
+    margin-right: -10px;
   }
 
   h4 {
