@@ -8,6 +8,10 @@ h2, input {
   letter-spacing: 18px;
 }
 
+h2, input {
+  margin-right: -15px;
+}
+
 @media only screen and (max-width: 1092px) {
   h2, input {
     font-size: 80px;

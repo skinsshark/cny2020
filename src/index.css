@@ -8,6 +8,14 @@ html {
   background-color: #ffeb99;
 }
 
+::selection {
+  background: transparent;
+}
+
+::-moz-selection {
+  background: transparent;
+}
+
 body {
   height: 95vh;
   overflow: hidden;

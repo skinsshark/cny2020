@@ -45,7 +45,7 @@ div.ani {
 }
 
 .ani .text {
-  font-family: 'ZCOOL XiaoWei', serif;
+  /* font-family: 'ZCOOL XiaoWei', serif; */
   animation: 2s ease-in-out spin;
   animation-iteration-count: 2;
 }
