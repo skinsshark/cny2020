@@ -1,5 +1,4 @@
 import React from 'react';
-import { useCallback, useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import YearInput from './inputs/YearInput';
 import './inputs/Input.css';
@@ -11,20 +10,6 @@ function Year(props) {
   function nextPage() {
     history.push("/almost");
   }
-
-  const onEnterPress = useCallback((event) => {
-    if (event.keyCode === 13) {
-      nextPage();
-    }
-  }, []);
-
-  useEffect(() => {
-    document.addEventListener("keydown", onEnterPress, false);
-
-    return () => {
-      document.removeEventListener("keydown", onEnterPress, false);
-    };
-  }, []);
 
   return (
     <main>

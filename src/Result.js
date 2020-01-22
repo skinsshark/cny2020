@@ -3,10 +3,6 @@ import React from 'react';
 import './Result.css';
 import data from './animals.json';
 
-const ANIMALS = [
-
-]
-
 function Result(props) {
   const {birthday} = props;
   const {animals} = data;

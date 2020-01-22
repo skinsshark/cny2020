@@ -1,5 +1,4 @@
 import React from 'react';
-import { useCallback, useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import MonthInput from './inputs/MonthInput';
 import DayInput from './inputs/DayInput';
@@ -16,20 +15,6 @@ function MonthDay(props) {
   function nextPage() {
     history.push("/result");
   }
-
-  const onEnterPress = useCallback((event) => {
-    if (event.keyCode === 13) {
-      nextPage();
-    }
-  }, []);
-
-  useEffect(() => {
-    document.addEventListener("keydown", onEnterPress, false);
-
-    return () => {
-      document.removeEventListener("keydown", onEnterPress, false);
-    };
-  }, []);
 
   return (
     <main>
