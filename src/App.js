@@ -8,9 +8,9 @@ import './App.css';
 
 function genFullBirthday(year, month, day) {
   return {
-    year,
-    month,
-    day,
+    "year": parseInt(year, 10),
+    "month": parseInt(month, 10),
+    "day": parseInt(day, 10),
   }
 }
 

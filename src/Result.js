@@ -19,8 +19,6 @@ function calcAnimal(birthday) {
 function Result(props) {
   // const {birthday, clearBirthday} = props;
   const {birthday} = props;
-  const {animals} = data;
-
   const { emoji, character, name } = calcAnimal(birthday);
 
   return (
