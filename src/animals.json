@@ -1,5 +1,21 @@
 {
   "animals" : {
+    "monkey" : {
+      "emoji": " 🐒",
+      "character" : "猴"
+    },
+    "rooster" : {
+      "emoji": "🐓",
+      "character" : "鸡"
+    },
+    "dog" : {
+      "emoji": "🐕",
+      "character" : "狗"
+    },
+    "pig" : {
+      "emoji": "🐖",
+      "character" : "猪"
+    },
     "rat" : {
       "emoji": "🐀",
       "character" : "鼠"
@@ -31,22 +47,6 @@
     "sheep" : {
       "emoji": " 🐐",
       "character" : "羊"
-    },
-    "monkey" : {
-      "emoji": " 🐒",
-      "character" : "猴"
-    },
-    "rooster" : {
-      "emoji": "🐓",
-      "character" : "鸡"
-    },
-    "dog" : {
-      "emoji": "🐕",
-      "character" : "狗"
-    },
-    "pig" : {
-      "emoji": "🐖",
-      "character" : "猪"
     }
   }
 }

@@ -6,9 +6,10 @@ const NUMBERS = ["零","一","二","三","四","五","六","七","八","九"];
 
 function limitInputLength(value, setMonth) {
   if (value.length > MONTH_LENGTH) {
-    setMonth(value.slice(0, MONTH_LENGTH))
+    const raw = value.slice(0, MONTH_LENGTH);
+    setMonth(parseInt(raw, 10));
   } else {
-    setMonth(value)
+    setMonth(parseInt(value, 10));
   }
 }
 

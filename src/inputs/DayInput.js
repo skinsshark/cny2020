@@ -6,9 +6,10 @@ const NUMBERS = ["零","一","二","三","四","五","六","七","八","九"];
 
 function limitInputLength(value, setDay) {
   if (value.length > DAY_LENGTH) {
-    setDay(value.slice(0, DAY_LENGTH))
+    const raw = value.slice(0, DAY_LENGTH);
+    setDay(parseInt(raw, 10));
   } else {
-    setDay(value)
+    setDay(parseInt(value, 10));
   }
 }
 
