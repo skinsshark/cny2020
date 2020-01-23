@@ -1,17 +1,19 @@
 h1, footer a {
-  color: #d93125;
+  color: #c6023a;
 }
 
 h1 {
   margin: 0;
-  font-size: calc(1.5*88px);
+  font-size: calc(1.8*88px);
   letter-spacing: 18px;
+  text-shadow: -10px 8px 0px #b9b4e0;
 }
 
 @media only screen and (max-width: 1092px) {
   h1 {
     font-size: 80px;
     letter-spacing: 8px;
+    text-shadow: -6px 4px 0px #b9b4e0;
   }
 }
 
@@ -19,13 +21,26 @@ h1 {
   h1 {
     font-size: 48px;
     letter-spacing: 6px;
+    text-shadow: -4px 4px 0px #b9b4e0;
   }
 }
 
 .main h3 {
-  color: #d93125;
+  color: #c6023a;
 }
 
 .main button {
-  background-color: #d93125;
+  margin-top: 54px;
+  background-color: #c6023a;
+  border: 8px solid #c6023a;
+}
+
+@media only screen and (max-width: 992px) {
+  .main button {
+    margin-top: 91px;
+  }
+}
+
+.main button:hover {
+  background-color: #b9b4e0;
 }

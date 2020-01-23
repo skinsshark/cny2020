@@ -1,10 +1,10 @@
 h2, h3, h4, input{
-  color: #ffcc00;
+  color: #fcb814;
   margin: 0;
 }
 
 h2, input {
-  font-size: calc(2*88px);
+  font-size: calc(1.5*88px);
   letter-spacing: 18px;
 }
 
@@ -78,7 +78,7 @@ main button {
 }
 
 button {
-  background-color: #ffcc00;
+  background-color: #fcb814;
   border: none;
   border-radius: 20px;
   font-size: 30px;
@@ -86,22 +86,48 @@ button {
   padding: 0 40px;
   outline: none;
   cursor: pointer;
+  line-height: 40px;
+  border: 8px solid #fcb814;
+}
+
+@media only screen and (max-width: 767px) {
+  button {
+    padding: 0 25px;
+    line-height: 25px;
+    font-size: 20px;
+    border-width: 4px;
+  }
+}
+
+button:hover {
+  background-color: #ffdb4a;
 }
 
 button:disabled,
 button[disabled] {
   cursor: not-allowed;
-  background-color: #ffdb4a;
+  background-color: #b5b4c1;
+  border-color: #b5b4c1;
 }
 
 button.back {
-  background-color: #f4c400;
+  background-color: #a2a2ad;
+  border-color: #a2a2ad;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  padding: 0 20px;
+  padding: 0 16px;
 }
 
 button.forward {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+button:hover {
+  /* font-style: italic; */
+}
+
+button:disabled:hover,
+button[disabled]:hover {
+  font-style: normal;
 }

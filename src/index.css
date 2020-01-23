@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color: #fff2ba;
+  background-color: #e3e1f2;
 }
 
 ::selection {
@@ -31,19 +31,3 @@ body {
     overflow-y: hidden;
   }
 }
-
-/* @media only screen and (max-width: 100px) {
-  html {
-    padding: 30px;
-    text-align: left;
-  }
-
-  html::before {
-    color: #ffcc00;
-    content: 'Super Desktop Experience 0nly';
-  }
-
-  body {
-    display: none;
-  }
-} */

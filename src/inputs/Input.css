@@ -1,27 +1,27 @@
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #ffcc00;
+  color: #fcb814;
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #ffcc00;
+  color: #fcb814;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: #ffcc00;
+  color: #fcb814;
 }
 
 input:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #ffdb4a;
+  color: #fdd472;
   opacity: 1; /* Firefox */
 }
 
 input:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #ffdb4a;
+  color: #fdd472;
 }
 
 input:focus::-ms-input-placeholder { /* Microsoft Edge */
-  color: #ffdb4a;
+  color: #fdd472;
 }
 
 input {
