@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chinese-zodiac/static/css/main.b504ee75.chunk.css",
+    "main.css": "/chinese-zodiac/static/css/main.78f9be3e.chunk.css",
     "main.js": "/chinese-zodiac/static/js/main.6766758e.chunk.js",
     "main.js.map": "/chinese-zodiac/static/js/main.6766758e.chunk.js.map",
     "runtime-main.js": "/chinese-zodiac/static/js/runtime-main.15314daa.js",
@@ -8,15 +8,15 @@
     "static/js/2.94ea21f1.chunk.js": "/chinese-zodiac/static/js/2.94ea21f1.chunk.js",
     "static/js/2.94ea21f1.chunk.js.map": "/chinese-zodiac/static/js/2.94ea21f1.chunk.js.map",
     "index.html": "/chinese-zodiac/index.html",
-    "precache-manifest.82224b2a56b27942671332781d950576.js": "/chinese-zodiac/precache-manifest.82224b2a56b27942671332781d950576.js",
+    "precache-manifest.e5aafd2b0f018dd03d49603066849aba.js": "/chinese-zodiac/precache-manifest.e5aafd2b0f018dd03d49603066849aba.js",
     "service-worker.js": "/chinese-zodiac/service-worker.js",
-    "static/css/main.b504ee75.chunk.css.map": "/chinese-zodiac/static/css/main.b504ee75.chunk.css.map",
+    "static/css/main.78f9be3e.chunk.css.map": "/chinese-zodiac/static/css/main.78f9be3e.chunk.css.map",
     "static/js/2.94ea21f1.chunk.js.LICENSE": "/chinese-zodiac/static/js/2.94ea21f1.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.15314daa.js",
     "static/js/2.94ea21f1.chunk.js",
-    "static/css/main.b504ee75.chunk.css",
+    "static/css/main.78f9be3e.chunk.css",
     "static/js/main.6766758e.chunk.js"
   ]
 }

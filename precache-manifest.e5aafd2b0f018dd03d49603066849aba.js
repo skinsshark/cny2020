@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d42dc28bf8a10e5ba54309f66781ba3",
+    "revision": "80b02215c6ecfc46ba4b2e0a9203ce0a",
     "url": "/chinese-zodiac/index.html"
   },
   {
-    "revision": "16336e5e1fccc284bb75",
-    "url": "/chinese-zodiac/static/css/main.b504ee75.chunk.css"
+    "revision": "d22f68aee4ff301499fd",
+    "url": "/chinese-zodiac/static/css/main.78f9be3e.chunk.css"
   },
   {
     "revision": "8da6475804c68d132434",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chinese-zodiac/static/js/2.94ea21f1.chunk.js.LICENSE"
   },
   {
-    "revision": "16336e5e1fccc284bb75",
+    "revision": "d22f68aee4ff301499fd",
     "url": "/chinese-zodiac/static/js/main.6766758e.chunk.js"
   },
   {
