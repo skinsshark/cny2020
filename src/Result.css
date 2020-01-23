@@ -3,21 +3,7 @@ div.result {
   justify-content: center;
   align-items: center;
   position: fixed;
-  animation: 1s linear fade-in;
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-
-  20% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+  animation: 2s linear fade-in;
 }
 
 h5 {
@@ -67,6 +53,10 @@ div.ani {
 
 @keyframes spin {
   0% {
+    transform: rotateY(0);
+  }
+
+  20% {
     transform: rotateY(0);
   }
 

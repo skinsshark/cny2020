@@ -7,6 +7,7 @@ h1 {
   font-size: calc(1.8*88px);
   letter-spacing: 18px;
   text-shadow: -10px 8px 0px #b9b4e0;
+  margin-right: -20px;
 }
 
 @media only screen and (max-width: 1092px) {
@@ -14,14 +15,39 @@ h1 {
     font-size: 80px;
     letter-spacing: 8px;
     text-shadow: -6px 4px 0px #b9b4e0;
+    margin-right: -15px;
   }
 }
 
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 767px) {
   h1 {
     font-size: 48px;
     letter-spacing: 6px;
     text-shadow: -4px 4px 0px #b9b4e0;
+    margin-right: -20px;
+  }
+}
+
+main {
+  animation: 0.5s linear fade-in;
+}
+
+main.main {
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
@@ -29,15 +55,24 @@ h1 {
   color: #c6023a;
 }
 
-.main button {
+.main button,
+.main button:active {
   margin-top: 54px;
   background-color: #c6023a;
   border: 8px solid #c6023a;
 }
 
-@media only screen and (max-width: 992px) {
-  .main button {
+@media only screen and (max-width: 1092px) {
+  .main button,
+  .main button:active {
     margin-top: 91px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main button,
+  .main button:active {
+    border-width: 4px;
   }
 }
 

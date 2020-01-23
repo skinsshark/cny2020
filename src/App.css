@@ -19,7 +19,7 @@ h2, input {
   }
 }
 
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 767px) {
   h2, input {
     font-size: 48px;
     letter-spacing: 6px;
@@ -60,7 +60,7 @@ h4 {
   }
 }
 
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 767px) {
   h3 {
     font-size: 15px;
     margin-right: -10px;
@@ -77,7 +77,8 @@ main button {
   margin-top: 50px;
 }
 
-button {
+button,
+button:active {
   background-color: #fcb814;
   border: none;
   border-radius: 20px;
@@ -90,12 +91,28 @@ button {
   border: 8px solid #fcb814;
 }
 
-@media only screen and (max-width: 767px) {
-  button {
-    padding: 0 25px;
-    line-height: 25px;
+@media only screen and (max-width: 1092px) {
+  button,
+  button:active,
+  .main button,
+  .main button:active {
+    line-height: 35px;
     font-size: 20px;
     border-width: 4px;
+  }
+
+  button:hover {
+    border-width: 4px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  button,
+  button:active,
+  .main button,
+  .main button:active {
+    padding: 0 25px;
+    line-height: 25px;
   }
 }
 
@@ -121,10 +138,6 @@ button.back {
 button.forward {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-}
-
-button:hover {
-  /* font-style: italic; */
 }
 
 button:disabled:hover,

@@ -9,11 +9,11 @@ html {
 }
 
 ::selection {
-  background: transparent;
+  background: #f9f9fc;
 }
 
 ::-moz-selection {
-  background: transparent;
+  background: #f9f9fc;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 767px) {
   body {
     height: 80vh;
     overflow-y: hidden;
