@@ -2,7 +2,7 @@ import React from 'react';
 import './Input.css';
 
 const MONTH_LENGTH = 2;
-const NUMBERS = ["零","一","二","三","四","五","六","七","八","九"];
+const NUMBERS = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
 
 function limitInputLength(value, setMonth) {
   if (value.length > MONTH_LENGTH) {

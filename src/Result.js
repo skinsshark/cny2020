@@ -2,12 +2,24 @@ import React from 'react';
 // import { Link } from "react-router-dom";
 import './Result.css';
 import data from './animals.json';
+import moment from 'moment';
+import 'moment-lunar';
 
 function calcAnimal(birthday) {
-  const { year } = birthday;
-  // const { year, month, day } = birthday;
+  const { year, month, day } = birthday;
+  // console.log(moment().year(year).month(month).date(day).lunar())
+  const [ ,, newMonth, newDay ] = moment().year(year).month(0).date(1).solar().format('YYYY-MM-DD').split('-');
+
   const { animals } = data;
-  const i = year % 12;
+  let i = year % 12;
+  if (month < Number(newMonth) || (month === Number(newMonth) && day < Number(newDay))) {
+    i--;
+  }
+
+  if (i < 0) {
+    i = 11;
+  }
+
   const name = Object.keys(animals)[i];
 
   return {
@@ -17,7 +29,6 @@ function calcAnimal(birthday) {
 }
 
 function Result(props) {
-  // const {birthday, clearBirthday} = props;
   const {birthday} = props;
   const { emoji, character, name } = calcAnimal(birthday);
 
