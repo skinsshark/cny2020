@@ -1,6 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
 import { MemoryRouter, Route } from 'react-router';
+import Main from './Main';
 import Year from './Year';
 import MonthDay from './MonthDay';
 import Result from './Result';
@@ -30,6 +31,10 @@ function App() {
       <Route
         exact
         path="/"
+        render={() => <Main />}
+      />
+      <Route
+        path="/start"
         render={() => <Year year={year} setYear={setYear} />}
       />
       <Route

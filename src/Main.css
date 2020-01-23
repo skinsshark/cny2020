@@ -1,0 +1,31 @@
+h1, footer a {
+  color: #d93125;
+}
+
+h1 {
+  margin: 0;
+  font-size: calc(1.5*88px);
+  letter-spacing: 18px;
+}
+
+@media only screen and (max-width: 1092px) {
+  h1 {
+    font-size: 80px;
+    letter-spacing: 8px;
+  }
+}
+
+@media only screen and (max-width: 787px) {
+  h1 {
+    font-size: 48px;
+    letter-spacing: 6px;
+  }
+}
+
+.main h3 {
+  color: #d93125;
+}
+
+.main button {
+  background-color: #d93125;
+}
