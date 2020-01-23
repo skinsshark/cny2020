@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "915978da05a796330f23a909e62627a7",
+    "revision": "43e177dbd9364f644fef7ca826c7c337",
     "url": "/chinese-zodiac/index.html"
   },
   {
