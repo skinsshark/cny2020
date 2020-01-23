@@ -32,10 +32,12 @@ h3 {
 
 h3::before {
   content: '[ ';
+  /* content: '「 '; */
 }
 
 h3::after {
   content: ' ]';
+  /* content: ' 」'; */
 }
 
 h4 {

@@ -7,8 +7,8 @@ import 'moment-lunar';
 
 function calcAnimal(birthday) {
   const { year, month, day } = birthday;
-  // console.log(moment().year(year).month(month).date(day).lunar())
-  const [ ,, newMonth, newDay ] = moment().year(year).month(0).date(1).solar().format('YYYY-MM-DD').split('-');
+  /* eslint-disable no-unused-vars */
+  const [ _newYear, newMonth, newDay ] = moment().year(year).month(0).date(1).solar().format('YYYY-MM-DD').split('-');
 
   const { animals } = data;
   let i = year % 12;
@@ -33,22 +33,28 @@ function Result(props) {
   const { emoji, character, name } = calcAnimal(birthday);
 
   return (
-    <div className="result">
-      <h5>{birthday.year}/{birthday.month}/{birthday.day}</h5>
-      <div className="ani">
-        <div className="moji">
-          <span role="img" aria-label={name}>{emoji}</span>
-          <span role="img" aria-label={name}>{emoji}</span>
-          <span role="img" aria-label={name}>{emoji}</span>
-        </div>
-        <div className="text">{character}</div>
-        <div className="moji right">
-          <span role="img" aria-label={name}>{emoji}</span>
-          <span role="img" aria-label={name}>{emoji}</span>
-          <span role="img" aria-label={name}>{emoji}</span>
+    <>
+      <footer>
+        <a href="https://sharonzheng.com/"
+          target="_blank" rel="noopener noreferrer">福</a>
+      </footer>
+      <div className="result">
+        <h5>{birthday.year}/{birthday.month}/{birthday.day}</h5>
+        <div className="ani">
+          <div className="moji">
+            <span role="img" aria-label={name}>{emoji}</span>
+            <span role="img" aria-label={name}>{emoji}</span>
+            <span role="img" aria-label={name}>{emoji}</span>
+          </div>
+          <div className="text">{character}</div>
+          <div className="moji right">
+            <span role="img" aria-label={name}>{emoji}</span>
+            <span role="img" aria-label={name}>{emoji}</span>
+            <span role="img" aria-label={name}>{emoji}</span>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
