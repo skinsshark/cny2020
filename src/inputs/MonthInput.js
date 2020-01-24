@@ -1,23 +1,8 @@
 import React from 'react';
 import './Input.css';
+import { chineseNumbers, limitInputLength } from '../utils';
 
 const MONTH_LENGTH = 2;
-const NUMBERS = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
-
-function limitInputLength(value, setMonth) {
-  if (value.length > MONTH_LENGTH) {
-    setMonth(value.slice(0, MONTH_LENGTH))
-  } else {
-    setMonth(value)
-  }
-}
-
-function chineseNumbers(digits) {
-  const arr = Array.from(digits);
-  const numbersStr = arr.map(number => NUMBERS[number])
-
-  return <header><h4>{numbersStr.join('')}</h4></header>
-}
 
 function MonthInput(props) {
   return (
@@ -29,7 +14,7 @@ function MonthInput(props) {
         type="number"
         maxLength={MONTH_LENGTH}
         placeholder="月份"
-        onChange={(e) => limitInputLength(e.target.value, props.setMonth)}
+        onChange={(e) => limitInputLength(e.target.value, props.setMonth, MONTH_LENGTH)}
       />
     </div>
   );
