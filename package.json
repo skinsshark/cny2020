@@ -2,7 +2,7 @@
   "name": "chinese-zodiac",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://skinsshark.github.io/chinese-zodiac",
+  "homepage": "https://skinsshark.github.io/cny2020",
   "dependencies": {
     "@babel/runtime": "^7.8.3",
     "@testing-library/jest-dom": "^4.2.4",
