@@ -43,8 +43,8 @@ h3::after {
 h4 {
   min-height: 41px;
   font-size: 28px;
-  letter-spacing: 95px;
-  margin-right: -95px;
+  letter-spacing: 70px;
+  margin-right: -69px;
 }
 
 @media only screen and (max-width: 1092px) {
