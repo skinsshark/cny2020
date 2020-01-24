@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/chinese-zodiac/static/css/main.c6ede092.chunk.css",
-    "main.js": "/chinese-zodiac/static/js/main.144b3a28.chunk.js",
-    "main.js.map": "/chinese-zodiac/static/js/main.144b3a28.chunk.js.map",
+    "main.css": "/chinese-zodiac/static/css/main.b49af764.chunk.css",
+    "main.js": "/chinese-zodiac/static/js/main.ede7e6ae.chunk.js",
+    "main.js.map": "/chinese-zodiac/static/js/main.ede7e6ae.chunk.js.map",
     "runtime-main.js": "/chinese-zodiac/static/js/runtime-main.15314daa.js",
     "runtime-main.js.map": "/chinese-zodiac/static/js/runtime-main.15314daa.js.map",
     "static/js/2.94ea21f1.chunk.js": "/chinese-zodiac/static/js/2.94ea21f1.chunk.js",
     "static/js/2.94ea21f1.chunk.js.map": "/chinese-zodiac/static/js/2.94ea21f1.chunk.js.map",
     "index.html": "/chinese-zodiac/index.html",
-    "precache-manifest.66a4a804475cfd02db89cf967b9000d0.js": "/chinese-zodiac/precache-manifest.66a4a804475cfd02db89cf967b9000d0.js",
+    "precache-manifest.c4d3a9e7b0a0b7ff2c258e495b7b0611.js": "/chinese-zodiac/precache-manifest.c4d3a9e7b0a0b7ff2c258e495b7b0611.js",
     "service-worker.js": "/chinese-zodiac/service-worker.js",
-    "static/css/main.c6ede092.chunk.css.map": "/chinese-zodiac/static/css/main.c6ede092.chunk.css.map",
+    "static/css/main.b49af764.chunk.css.map": "/chinese-zodiac/static/css/main.b49af764.chunk.css.map",
     "static/js/2.94ea21f1.chunk.js.LICENSE": "/chinese-zodiac/static/js/2.94ea21f1.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.15314daa.js",
     "static/js/2.94ea21f1.chunk.js",
-    "static/css/main.c6ede092.chunk.css",
-    "static/js/main.144b3a28.chunk.js"
+    "static/css/main.b49af764.chunk.css",
+    "static/js/main.ede7e6ae.chunk.js"
   ]
 }
