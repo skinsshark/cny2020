@@ -6,6 +6,7 @@ import './inputs/Input.css';
 
 function MonthDay(props) {
   const {month, setMonth, day, setDay} = props;
+  const isDisabled = month.length < 1 || day.length < 1 || month < 1 || month > 12 || day < 1 || day > 31;
   const history = useHistory();
 
   function prevPage() {
@@ -17,7 +18,11 @@ function MonthDay(props) {
   }
 
   return (
-    <main>
+    <main onKeyDown={(e) => {
+      if (e.keyCode === 13 && !isDisabled) {
+        nextPage();
+      }
+    }}>
       <section className="month-day">
         <article>
           <MonthInput
@@ -39,7 +44,7 @@ function MonthDay(props) {
         onClick={prevPage}
       >&larr;</button>
       <button
-        disabled={month.length < 1 || day.length < 1 || month < 1 || month > 12 || day < 1 || day > 31}
+        disabled={isDisabled}
         className="forward"
         onClick={nextPage}
       >&rarr;</button>
