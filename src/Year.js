@@ -6,7 +6,7 @@ import './inputs/Input.css';
 
 function Year(props) {
   const {year, setYear} = props;
-  console.log(moment().format('Y'))
+
   const isDisabled = year.length !== 4 || year < 1920 || year > moment().format('Y');
   const history = useHistory();
 

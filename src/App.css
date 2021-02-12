@@ -115,7 +115,7 @@ button:active {
 }
 
 button:hover {
-  /* background-color: blue; */
+  background-color: #FDD577;
   border-radius: 20px;
 }
 
