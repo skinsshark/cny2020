@@ -59,7 +59,6 @@ main.main {
 .main button:active {
   margin-top: 54px;
   background-color: #c6023a;
-  border: 8px solid #c6023a;
 }
 
 @media only screen and (max-width: 1092px) {
@@ -77,5 +76,5 @@ main.main {
 }
 
 .main button:hover {
-  background-color: #b9b4e0;
+  background-color: #E78D9C;
 }

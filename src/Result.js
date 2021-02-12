@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
 import './Result.css';
 import data from './animals.json';
 import moment from 'moment';

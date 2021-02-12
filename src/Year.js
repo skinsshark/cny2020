@@ -1,11 +1,13 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import YearInput from './inputs/YearInput';
+import moment from 'moment';
 import './inputs/Input.css';
 
 function Year(props) {
   const {year, setYear} = props;
-  const isDisabled = year.length !== 4 || year < 1920 || year >= 2020;
+  console.log(moment().format('Y'))
+  const isDisabled = year.length !== 4 || year < 1920 || year > moment().format('Y');
   const history = useHistory();
 
   function nextPage() {
